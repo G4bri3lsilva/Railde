@@ -1,0 +1,111 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&family=Jacques+Francois&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    width: 1370px;
+    height: 100px;
+ 
+
+}
+.menu h1{
+    color: black;
+    font-family:'Darker Grotesque', sans-serif;
+    font-size: 50px;
+
+}
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-bottom: 70px;
+    background-color:rgb(120, 117, 117);
+}
+.nav ul a li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+.imagem img{
+    width: 202px;
+    height: 275px;
+    border-radius: 20px;
+  
+}
+.imagem{
+    display: flex;
+    flex-direction:row;
+   justify-content:space-around;
+   
+}
+.icon img{
+    width: 30px;
+    height: 30px;
+    
+}
+.icon{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+    justify-content: right;
+    gap: 30px;
+    margin-right: 50px;
+
+}
+.busca{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    position: relative;
+    top: -80px;
+    margin-left: 50px;
+    
+
+}
+.busca input{
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+}
+.preco{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+    margin-right: 40px;
+   
+}
+.preco p{
+    color: rgb(97, 96, 96);
+    
+   
+}
+.dindin{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-right: 100px;
+    gap: 210px;
+   font-size: 30px;
+}
